@@ -2,13 +2,22 @@
   "name": "bettr-logger",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nawaz-git/bettr-logger.git"
+  },
+  "author": "Nawaz Pasha <contact@nawazpasha.com>",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.0.3"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
