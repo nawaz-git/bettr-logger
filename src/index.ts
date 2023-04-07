@@ -9,6 +9,6 @@ export class Log {
         console.log(`%c ${msg}`, 'color: black; background: yellow');
     }
     static response(value: any) {
-        console.log(`%c Response -  ${value}`, 'color: white;background: green');
+        console.log(`%c Response -  ${JSON.parse(value)}`, 'color: white;background: green');
     }
 }
