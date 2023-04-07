@@ -8,7 +8,7 @@ export class Log {
     static info(msg: string) {
         console.log(`%c ${msg}`, 'color: black; background: yellow');
     }
-    static response(msg: string) {
-        console.log(`%c ${msg}`, 'color: white;background: green');
+    static response(value: any) {
+        console.log(`%c Response -  ${value}`, 'color: white;background: green');
     }
 }
